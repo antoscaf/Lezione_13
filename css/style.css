@@ -96,3 +96,29 @@ h2 {
   left: 50%;
   transform: translate(-32%, -50%);
 }
+
+/*Fitness*/
+.container-fluid {
+  padding-left: 0px;
+}
+
+.fitness{
+  background-image:url(http://makeit.netflix.com/assets/hero-2-155316d8a6859efc3816d85a06de26fb5aaec52a05a9a114649b30c08ac05541.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 649px;
+}
+
+h3, .fitness-text p {
+  padding-left: 5vw;
+}
+
+h3 {
+  font-size: 3vw;
+  padding-top: 9vw;
+}
+
+.fitness-text p {
+  padding-top: 2.5vw;
+  font-size: 1.4vw;
+}
