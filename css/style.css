@@ -11,6 +11,9 @@ html {
   color: white;
 }
 
+.text-grey {
+  color: #99a9b3;
+}
 .flex-between {
   display: flex;
   justify-content: space-between;
@@ -19,6 +22,11 @@ html {
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /*End Universal CSS*/
@@ -112,7 +120,7 @@ h2 {
   background-image:url(../images/fitness_background.jpg);
   background-size: cover;
   background-position: center;
-  height: 649px;
+  height: 650px;
 }
 
 h3, .fitness-text p {
@@ -176,4 +184,106 @@ h3 {
   border-left: 2px solid red;
   padding-left: 0.5vw;
   font-size: 1.5vw;
+}
+
+/*Trainer*/
+.trainer {
+  background-image:url(../images/trainer_background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10vw;
+}
+
+/*Motivation*/
+
+.motivation{
+  background-image:url(../images/motivation_background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.motivation-content h3, .motivation-content p {
+  padding-left: 5vw;
+}
+
+.motivation-content p {
+  padding-top: 2.5vw;
+  font-size: 1.4vw;
+}
+
+/*Power*/
+
+.power{
+  background-image:url(../images/power_background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.primary-button {
+  padding-left: 5vw;
+  padding-top: 3vw;
+}
+
+.primary-button a, .primary-button-about a {
+    padding: 10px 40px;
+    border: 1px solid red;
+    font-size: 14px;
+    color: red;
+}
+
+.primary-button a:hover, .primary-button-about a:hover {
+    padding: 10px 40px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.25s;
+}
+
+/*friend*/
+.friend {
+  background-color: #221F1F;
+}
+
+.friend h1 {
+  padding-left: 5vw;
+  font-size: 7vw;
+}
+
+.friend-gif{
+  margin: 3vw 0;
+}
+.friend-gif{
+  background-color: #343131;
+  padding-left: 0;
+  padding-right: 0;
+}
+.friend-gif li{
+  display: inline-block;
+}
+.friend-gif ul{
+  float: right;
+  padding: 1vw;
+}
+.friend-gif p{
+  float:left;
+  padding: 1vw;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer-padding {
+  padding-bottom: 2vw;
+}
+
+.footer-padding a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid red;
+  color: white;
+
 }
